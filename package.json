@@ -1,0 +1,17 @@
+{
+  "name": "nodemailer",
+  "version": "1.0.0",
+  "description": "the tutorial for how we can send an email to the user",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Divyam Chauhan",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "nodemailer": "^6.9.16"
+  }
+}
